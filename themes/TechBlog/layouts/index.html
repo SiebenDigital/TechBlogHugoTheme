@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="mt-12">{{ partial "frontpage/hero-news-grid.html" . }}</div>
+
+<div class="flex gap-6 mt-12">
+  <div class="">
+    <div class="flex gap-6 flex-wrap">
+      {{range .Site.RegularPages}} {{ partial
+      "components/article-preview-big.html" .}} {{end}}
+    </div>
+
+    <div class="flex flex-wrap gap-4 mt-12">
+      <div class="flex flex-col gap-6">
+        {{range .Site.RegularPages}} {{ partial
+        "components/article-preview-small.html" .}} {{end}}
+      </div>
+      <div class="flex flex-col gap-6">
+        {{range .Site.RegularPages}} {{ partial
+        "components/article-preview-small.html" .}} {{end}}
+      </div>
+    </div>
+  </div>
+  {{ partial "components/frontpage-sidebar.html" . }}
+</div>
+{{ end }}

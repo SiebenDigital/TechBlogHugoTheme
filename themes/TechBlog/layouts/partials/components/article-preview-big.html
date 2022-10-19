@@ -1,0 +1,24 @@
+<a
+  class="flex flex-col min-w-[250px] gap-4 news-article-small flex-1"
+  href="{{.Permalink}}"
+>
+  <div class="z-10 w-full h-40 overflow-hidden">
+    <!-- prettier-ignore -->
+    {{- $image := resources.Get .Params.featureimg -}} 
+    {{ with $image }}
+    <img
+      class="object-cover w-full h-full news-image-small"
+      src='{{ ($image.Fill "600x300 q80 Center").RelPermalink }}'
+      alt="{{.Params.imageDescription}}"
+    />
+    {{ end }}
+  </div>
+  <div class="flex flex-col gap-1 items-start">
+    {{ partial "components/category-tag.html" . }}
+    <h3>{{.Title}}</h3>
+    <span class="text-sm font-semibold tracking-wide"
+      >By {{.Params.Author}}</span
+    >
+    <p>{{.Content | truncate 100 }}</p>
+  </div>
+</a>

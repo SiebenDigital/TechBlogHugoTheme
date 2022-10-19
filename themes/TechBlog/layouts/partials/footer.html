@@ -1,0 +1,19 @@
+<footer class="bg-slate-700 text-slate-50">
+  <div
+    class="max-w-4xl lg:max-w-5xl xl:max-w-7xl container mx-auto mt-24 py-32 flex flex-wrap gap-6 px-4"
+  >
+    <div class="max-w-sm">
+      {{ partial "components/logo-small-white.html" . }}
+      <p class="mt-2 text-slate-50">{{.Site.Params.Description}}</p>
+    </div>
+    <div class="max-w-sm flex flex-col gap-1">
+      {{ range .Site.RegularPages }}
+      <a
+        href="#"
+        class="text-slate-50 dark:text-slate-900 uppercase font-normal"
+        >{{.Params.category}}</a
+      >
+      {{end}}
+    </div>
+  </div>
+</footer>

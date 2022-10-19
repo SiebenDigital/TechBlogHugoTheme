@@ -1,0 +1,17 @@
+theme = "TechBlog"
+languageCode = "en-us"
+baseurl = "http://example.com/"
+title = "TechGlobe"
+
+author = "Max Muster"
+copyright = "Copyright © 2022, Max Muster, all rights reserved."
+
+[params]
+    name = "TechGlobe"
+    subtitle = "Stay up-to-date with tech"
+    description = "A world renowend blog covering the worlds latest news in Tech."
+    favicon = "favicon.ico"
+
+[build]
+  writeStats = true
+

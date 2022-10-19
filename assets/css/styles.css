@@ -1,0 +1,67 @@
+/* TailwindCSS base styles */
+/* see https://tailwindcss.com/docs/functions-and-directives#tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* Other Imports */
+@import url(fonts.css);
+
+/* Site Specific */
+/* put site specific css styles here using the @layer directive */
+/* see https://tailwindcss.com/docs/functions-and-directives#layer */
+@layer components {
+  .welcome-headline {
+    @apply text-blue-700;
+  }
+}
+
+/* FONTS */
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+h5 {
+  @apply text-lg font-semibold;
+}
+
+p {
+  @apply text-slate-800 dark:text-white/80;
+}
+
+/* NEWS GRID */
+
+.news-grid-article .news-grid-image {
+  @apply duration-300 transition-all ease-in-out;
+}
+
+.news-grid-article:hover .news-grid-image {
+  transform: scale(1.2);
+}
+
+.news-article-small .news-image-small {
+  @apply duration-300 transition-all ease-in-out;
+}
+
+.news-article-small:hover .news-image-small {
+  transform: scale(1.05);
+}
+
+.news-article-small:hover h3,
+.news-article-small:hover h5 {
+  @apply underline decoration-2 decoration-slate-300 dark:decoration-slate-500;
+}

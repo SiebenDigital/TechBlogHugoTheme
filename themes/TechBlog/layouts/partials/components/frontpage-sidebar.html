@@ -1,0 +1,15 @@
+<div class="w-52 lg:w-80 bg-slate-100 shrink-0">
+  <div class="p-4">
+    <div class="">
+      <h5>Popular Tags</h5>
+      <ul id="tags-single">
+        <li>Tags:</li>
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+    
+          {{end}}
+
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body
+    class="min-h-screen dark:bg-[#07070f] dark:text-white transition-colors duration-300"
+  >
+    {{- partial "header.html" . -}}
+    <div
+      class="max-w-4xl lg:max-w-5xl xl:max-w-7xl container mx-auto mt-24 px-4"
+    >
+      {{- block "main" . }}{{- end }}
+    </div>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
