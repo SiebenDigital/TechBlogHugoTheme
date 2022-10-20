@@ -36,6 +36,7 @@
       "bg-sky-100",
       "bg-sky-600",
       "bg-slate-100",
+      "bg-slate-200",
       "bg-slate-300",
       "bg-slate-500",
       "bg-slate-700",
@@ -84,6 +85,7 @@
       "items-start",
       "justify-between",
       "justify-end",
+      "justify-start",
       "lg:max-w-5xl",
       "lg:max-w-7xl",
       "lg:prose-xl",
@@ -94,6 +96,7 @@
       "max-w-[250px]",
       "max-w-md",
       "max-w-sm",
+      "mb-3",
       "mb-8",
       "md:basis-3/4",
       "md:inline-block",
@@ -163,8 +166,6 @@
       "z-20",
       "z-30"
     ],
-    "ids": [
-      "tags-single"
-    ]
+    "ids": null
   }
 }
