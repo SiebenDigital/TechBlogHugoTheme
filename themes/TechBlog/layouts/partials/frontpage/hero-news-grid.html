@@ -38,7 +38,7 @@
   <div
     class="flex basis-1/2 flex-row flex-wrap gap-1 sm:flex-col sm:flex-nowrap cursor-pointer"
   >
-    {{range $SecondArticles}}
+    {{range (first 2 $SecondArticles)}}
     <a
       href="{{.Permalink}}"
       class="relative h-1/2 w-full bg-slate-300 overflow-hidden news-grid-article"

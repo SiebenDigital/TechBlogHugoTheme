@@ -5,7 +5,7 @@
       fill="none"
       viewBox="0 0 24 24"
       stroke-width="1.5"
-      class="w-16 h-16 stroke-sky-600"
+      class="w-12 h-12 md:w-16 md:h-16 stroke-sky-600"
     >
       <path
         stroke-linecap="round"
@@ -15,10 +15,12 @@
     </svg>
   </div>
   <div class="flex flex-col">
-    <h1 class="font-semibold text-slate-900 dark:text-slate-100">
+    <h1
+      class="text-3xl md:text-5xl font-semibold text-slate-900 dark:text-slate-100"
+    >
       {{.Site.Title}}
     </h1>
-    <span class="text-slate-600 dark:text-slate-300"
+    <span class="stext-slate-600 dark:text-slate-300"
       >{{.Site.Params.subtitle}}</span
     >
   </div>

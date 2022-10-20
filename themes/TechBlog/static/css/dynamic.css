@@ -1,0 +1,29 @@
+.mobile-nav[data-visible="true"] {
+  transform: scale(1);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.mobile-nav {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    transform: translateX(0) !important;
+  }
+}
+
+.mobile-nav[data-visible="false"] {
+  transform: scale(1);
+  transform: translateX(100%);
+  opacity: 0.6;
+}
+
+.nav-toggle[aria-expanded="true"] .open-menu {
+  display: none;
+}
+
+.nav-toggle[aria-expanded="false"] .close-menu {
+  display: none;
+}

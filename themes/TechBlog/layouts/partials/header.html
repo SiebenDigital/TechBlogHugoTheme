@@ -1,17 +1,63 @@
 <div
-  class="max-w-4xl lg:max-w-5xl xl:max-w-7xl container mx-auto mt-24 flex justify-between items-center gap-9"
+  class="container flex items-center justify-between max-w-4xl mx-auto mt-24 lg:max-w-5xl xl:max-w-7xl gap-9"
 >
   {{ partial "components/logo.html" . }}
 
-  <div class="w-full bg-slate-700 dark:bg-slate-50 py-4">
-    <div class="flex gap-6 px-7">
-      {{ range .Site.RegularPages }}
-      <a
-        href="#"
-        class="text-slate-50 dark:text-slate-900 uppercase font-semibold"
-        >{{.Params.category}}</a
+  <div
+    class="fixed top-0 z-50 w-full h-screen py-4 bg-slate-700/50 dark:bg-slate-50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
+    data-visible="false"
+  >
+    <div
+      class="flex flex-col justify-between h-full pb-12 pt-28 md:pb-0 md:pt-0"
+    >
+      <div
+        class="flex flex-col items-start gap-6 md:flex-row px-7 md:mb-0 md:mt-0"
       >
-      {{end}}
+        {{ range .Site.RegularPages }}
+        <a
+          href="#"
+          class="font-semibold uppercase text-slate-50 dark:text-slate-900"
+          >{{.Params.category}}</a
+        >
+        {{end}}
+      </div>
+
+      <div class="flex justify-center md:hidden">
+        {{ partial "components/logo-small-white.html" . }}
+      </div>
     </div>
   </div>
+
+  <button
+    class="fixed md:hidden nav-toggle z-[60] right-4"
+    aria-expanded="false"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      class="fill-slate-900 w-7 h-7 open-menu"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+        clip-rule="evenodd"
+        class="fill-slate-900"
+      />
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="fill-slate-900 w-7 h-7 close-menu"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+        class="fill-slate-900"
+      />
+    </svg>
+  </button>
 </div>

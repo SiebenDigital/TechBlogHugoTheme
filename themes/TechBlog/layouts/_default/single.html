@@ -31,7 +31,7 @@
       </div>
       {{ partial "blog-page/share-btns.html" . }}
     </div>
-    <div class="z-10 max-h-2xl w-full">
+    <div class="z-10 w-full max-h-2xl">
       {{- $image := resources.Get .Params.featureimg -}} {{ with $image }}
       <img
         class="object-cover w-full h-full news-grid-image"
@@ -42,7 +42,7 @@
     </div>
     <article class="prose lg:prose-xl my-7">{{.Content}}</article>
   </div>
-  <div class="basis-1/4 hidden md:inline-block">Sidebar</div>
+  {{ partial "components/blog-sidebar.html" . }}
 </div>
 
 {{ end }}

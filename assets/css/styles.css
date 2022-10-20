@@ -46,7 +46,7 @@ p {
 /* NEWS GRID */
 
 .news-grid-article .news-grid-image {
-  @apply duration-300 transition-all ease-in-out;
+  @apply transition-all duration-300 ease-in-out;
 }
 
 .news-grid-article:hover .news-grid-image {
@@ -54,7 +54,7 @@ p {
 }
 
 .news-article-small .news-image-small {
-  @apply duration-300 transition-all ease-in-out;
+  @apply transition-all duration-300 ease-in-out;
 }
 
 .news-article-small:hover .news-image-small {
