@@ -12,5 +12,9 @@
       <h5>Article Contents</h5>
       <div class="flex flex-col gap-2">{{ .TableOfContents }}</div>
     </div>
+    <div class="">
+      <h5>Popular Tags</h5>
+      {{ partial "components/popular-tags.html" . }}
+    </div>
   </div>
 </div>
