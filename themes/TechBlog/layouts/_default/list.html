@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<h1 class="mb-12">{{.Title}}</h1>
+
+<div class="flex flex-wrap gap-4">
+  {{range .RegularPages}} {{ partial "components/article-preview-big.html" . }}
+  {{end}}
+</div>
+
+{{ end }}

@@ -29,6 +29,17 @@
           >
         </div>
       </div>
+      <div class="flex flex-wrap justify-start max-w-md gap-2">
+        {{ range (first 15 $.Site.Taxonomies.tags.ByCount) }}
+
+        <a
+          class="p-2 text-sm rounded-md bg-slate-200"
+          href="/tags/{{ .Name | urlize }}"
+          >{{ .Name | humanize }}</a
+        >
+
+        {{ end }}
+      </div>
       {{ partial "blog-page/share-btns.html" . }}
     </div>
     <div class="z-10 w-full max-h-2xl">
@@ -43,6 +54,18 @@
     <article class="prose lg:prose-xl my-7">{{.Content}}</article>
   </div>
   {{ partial "components/blog-sidebar.html" . }}
+</div>
+
+<div class="pt-8">
+  {{ $related := .Site.RegularPages.Related . | first 3 }} {{ with $related }}
+  <h3 class="pt-8 mb-4 border-t-2 border-slate-200">
+    Articles you might also like
+  </h3>
+  <div class="flex flex-wrap gap-4">
+    {{ range . }} {{ partial "components/article-preview-big.html" . }} {{ end
+    }}
+  </div>
+  {{ end }}
 </div>
 
 {{ end }}

@@ -43,6 +43,8 @@
       "bg-slate-500",
       "bg-slate-700",
       "bg-slate-700/50",
+      "border-slate-200",
+      "border-t-2",
       "bottom-0",
       "break-normal",
       "close-menu",
@@ -105,7 +107,9 @@
       "max-w-[250px]",
       "max-w-md",
       "max-w-sm",
+      "mb-12",
       "mb-3",
+      "mb-4",
       "mb-8",
       "md:basis-3/4",
       "md:bg-slate-700",
@@ -116,6 +120,7 @@
       "md:inline-block",
       "md:mb-0",
       "md:mt-0",
+      "md:mt-24",
       "md:pb-0",
       "md:pt-0",
       "md:static",
@@ -124,6 +129,7 @@
       "min-h-screen",
       "min-w-[250px]",
       "mobile-nav",
+      "mt-10",
       "mt-12",
       "mt-2",
       "mt-24",
@@ -142,7 +148,9 @@
       "pb-12",
       "prose",
       "pt-28",
+      "pt-8",
       "px-2",
+      "px-3",
       "px-4",
       "px-6",
       "px-7",
@@ -163,6 +171,7 @@
       "sm:flex-row",
       "sm:h-96",
       "stext-slate-600",
+      "sticky",
       "stroke-sky-400",
       "stroke-sky-600",
       "text-3xl",
@@ -176,6 +185,7 @@
       "text-xs",
       "to-slate-900/0",
       "top-0",
+      "top-4",
       "tracking-tight",
       "tracking-wide",
       "tracking-wider",
@@ -198,6 +208,11 @@
       "z-50",
       "z-[60]"
     ],
-    "ids": null
+    "ids": [
+      "TableOfContents",
+      "a14-chip",
+      "iphones-just-got-better",
+      "new-camera"
+    ]
   }
 }
