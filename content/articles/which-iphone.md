@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: Everything you need to know about iPhone 14 Pro
-date: 2022-10-19
+title: Which iPhone should you buy?
+date: 2022-10-18
 category: Tech
-featureimg: /img/iphone-14-pro.jpg
-imageDescription: Iphone 14 Pro Front
-tags: [Apple, iPhone, iPhone 14 Pro, Unboxing, First Test]
+featureimg: /img/iphone-compare.jpg
+imageDescription: 3 iPhones next to one another
+tags: [iPhone, Review, Recommendations]
 draft: true
 ---
 

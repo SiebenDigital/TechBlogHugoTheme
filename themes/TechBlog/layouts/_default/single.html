@@ -30,12 +30,12 @@
         </div>
       </div>
       <div class="flex flex-wrap justify-start max-w-md gap-2">
-        {{ range (first 15 $.Site.Taxonomies.tags.ByCount) }}
+        {{ range .Params.tags }}
 
         <a
           class="p-2 text-sm rounded-md bg-slate-200"
-          href="/tags/{{ .Name | urlize }}"
-          >{{ .Name | humanize }}</a
+          href="/tags/{{ . | urlize }}"
+          >{{ . | humanize }}</a
         >
 
         {{ end }}

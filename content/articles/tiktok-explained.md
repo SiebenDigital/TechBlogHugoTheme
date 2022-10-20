@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: Everything you need to know about iPhone 14 Pro
+title: Addictive Swipes - TikToks Algorithm Explained
 date: 2022-10-19
-category: Tech
-featureimg: /img/iphone-14-pro.jpg
-imageDescription: Iphone 14 Pro Front
-tags: [Apple, iPhone, iPhone 14 Pro, Unboxing, First Test]
+category: Social Media
+featureimg: /img/tiktok.jpg
+imageDescription: TikTok opened on a Phone
+tags: [TikTok, Social Media Addiction]
 draft: true
 ---
 

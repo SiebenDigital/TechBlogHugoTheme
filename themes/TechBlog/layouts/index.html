@@ -4,19 +4,23 @@
 
 <div class="flex gap-6 mt-12">
   <div class="">
-    <div class="flex gap-6 flex-wrap">
-      {{range .Site.RegularPages}} {{ partial
-      "components/article-preview-big.html" .}} {{end}}
+    <div class="flex flex-wrap gap-6">
+      {{$ThirdArticles := where .Site.RegularPages "Section" "articles"}}
+      {{$ThirdArticles := after 3 $ThirdArticles}} {{range (first 3
+      $ThirdArticles)}} {{ partial "components/article-preview-big.html" .}}
+      {{end}}
     </div>
 
     <div class="flex flex-wrap gap-4 mt-12">
       <div class="flex flex-col gap-6">
-        {{range .Site.RegularPages}} {{ partial
-        "components/article-preview-small.html" .}} {{end}}
+        {{$Articles := where .Site.RegularPages "Section" "articles"}}
+        {{$Articles := after 6 $Articles}} {{range (first 3 $Articles)}} {{
+        partial "components/article-preview-small.html" .}} {{end}}
       </div>
       <div class="flex flex-col gap-6">
-        {{range .Site.RegularPages}} {{ partial
-        "components/article-preview-small.html" .}} {{end}}
+        {{$Articles := where .Site.RegularPages "Section" "articles"}}
+        {{$Articles := after 9 $Articles}} {{range (first 3 $Articles)}} {{
+        partial "components/article-preview-small.html" .}} {{end}}
       </div>
     </div>
   </div>

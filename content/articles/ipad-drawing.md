@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: Everything you need to know about iPhone 14 Pro
-date: 2022-10-19
+title: The Top 10 iPad Drawing Apps for Creatives
+date: 2022-10-20
 category: Tech
-featureimg: /img/iphone-14-pro.jpg
-imageDescription: Iphone 14 Pro Front
-tags: [Apple, iPhone, iPhone 14 Pro, Unboxing, First Test]
+featureimg: /img/ipad-drawing.jpg
+imageDescription: Someone using Procreate on an edgeless iPad
+tags: [iPad, Apple, Creative Software]
 draft: true
 ---
 
