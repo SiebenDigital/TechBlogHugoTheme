@@ -2,9 +2,9 @@
   {{ range (first 15 $.Site.Taxonomies.tags.ByCount) }}
 
   <a
-    class="p-2 transition-all duration-200 rounded-md bg-slate-200 dark:bg-slate-200/20 hover:bg-opacity-30 hover:scale-105"
+    class="p-2 transition-all duration-200 rounded-md bg-slate-200 bg-opacity-20 hover:bg-opacity-30 hover:scale-105"
     href="/tags/{{ .Name | urlize }}"
-    >{{ .Name | humanize }}</a
+    >{{ .Name }}</a
   >
 
   {{ end }}

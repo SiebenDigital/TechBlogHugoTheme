@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: How Tesla revolutionized the automotive Industry by betting against the odds
-date: 2022-10-18
-category: Cars
-featureimg: /img/tesla.jpg
-imageDescription: Tesla Model 3 in Sunset
-tags: [Tesla, Elon Musk, California, Stock, "EV"]
+title: Addictive Swipes - TikToks Algorithm Explained
+date: 2022-10-19
+categories: [Social Media]
+featureimg: img/tiktok.jpg
+imageDescription: TikTok opened on a Phone
+tags: [TikTok, Social Media Addiction]
 draft: true
 ---
 

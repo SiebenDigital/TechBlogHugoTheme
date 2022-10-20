@@ -6,16 +6,16 @@
   {{- range (.Paginate ( where .Site.RegularPages "Section" "articles" | first 1)).Pages }}
   <a
     href="{{.Permalink}}"
-    class="relative w-full basis-1/3 bg-slate-500 sm:basis-1/2 overflow-hidden cursor-pointer news-grid-article"
+    class="relative w-full overflow-hidden cursor-pointer basis-1/2 bg-slate-500 news-grid-article"
   >
     <div
-      class="absolute z-30 flex h-full flex-col items-start justify-end py-3 px-6 text-white"
+      class="absolute z-30 flex flex-col items-start justify-end h-full px-6 py-3 text-white"
     >
       {{ partial "components/category-tag.html" . }}
       <h2 class="tracking-tight">{{.Title}}</h2>
     </div>
 
-    <div class="absolute z-10 h-full w-full">
+    <div class="absolute z-10 w-full h-full">
       {{- $image := resources.Get .Params.featureimg -}} {{ with $image }}
       <img
         class="object-cover w-full h-full news-grid-image"
@@ -25,7 +25,7 @@
       {{ end }}
     </div>
     <div
-      class="absolute bottom-0 z-20 h-1/2 w-full bg-gradient-to-t from-slate-900/50 to-slate-900/0"
+      class="absolute bottom-0 z-20 w-full h-1/2 bg-gradient-to-t from-slate-900/50 to-slate-900/0"
     ></div>
   </a>
   {{end}}
@@ -36,20 +36,20 @@
   {{$SecondArticles := after 1 $SecondArticles}}
 
   <div
-    class="flex basis-1/2 flex-row flex-wrap gap-1 sm:flex-col sm:flex-nowrap cursor-pointer"
+    class="flex flex-row flex-wrap gap-1 cursor-pointer basis-1/2 sm:flex-col sm:flex-nowrap"
   >
     {{range (first 2 $SecondArticles)}}
     <a
       href="{{.Permalink}}"
-      class="relative h-1/2 w-full bg-slate-300 overflow-hidden news-grid-article"
+      class="relative w-full overflow-hidden h-1/2 bg-slate-300 news-grid-article"
     >
       <div
-        class="absolute z-30 flex h-full flex-col items-start justify-end py-3 px-6 text-white"
+        class="absolute z-30 flex flex-col items-start justify-end h-full px-6 py-3 text-white"
       >
         {{ partial "components/category-tag.html" . }}
         <h3 class="tracking-tight">{{.Title}}</h3>
       </div>
-      <div class="absolute z-10 h-full w-full">
+      <div class="absolute z-10 w-full h-full">
         {{- $image := resources.Get .Params.featureimg -}} {{ with $image }}
         <img
           class="object-cover w-full h-full news-grid-image"
@@ -60,7 +60,7 @@
       </div>
 
       <div
-        class="absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-slate-900/50 to-slate-900/0 z-20"
+        class="absolute bottom-0 z-20 w-full h-1/2 bg-gradient-to-t from-slate-900/50 to-slate-900/0"
       ></div>
     </a>
     {{end}}

@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: How Volkswagen tries to disrupt the EV Market
-date: 2022-10-19
-category: Cars
-featureimg: /img/vw.jpg
-imageDescription: VW ID 3 Charging
-tags: [VW, "EV", ID 3, Germany]
+title: Which iPhone should you buy?
+date: 2022-10-18
+categories: [Tech]
+featureimg: /img/iphone-compare.jpg
+imageDescription: 3 iPhones next to one another
+tags: [iPhone, Review, Recommendations]
 draft: true
 ---
 

@@ -12,6 +12,13 @@ copyright = "Copyright © 2022, Max Muster, all rights reserved."
     description = "A world renowend blog covering the worlds latest news in Tech."
     favicon = "favicon.ico"
 
+    instagram = "https://www.instagram.com/"
+    youtube = "https://www.youtube.com/"
+    twitter = "https://twitter.com/home"
+    facebook = "https://facebook.com/"
+    tiktok = "https://www.tiktok.com/"
+
 [build]
   writeStats = true
+
 

@@ -1,24 +1,24 @@
 <div
-  class="container flex items-center justify-between max-w-4xl mx-auto mt-10 md:mt-24 lg:max-w-5xl xl:max-w-7xl gap-9"
+  class="container flex items-center justify-between max-w-4xl mx-auto mt-10 md:items-start xl:items-center md:flex-col xl:flex-row md:mt-24 lg:max-w-5xl xl:max-w-7xl gap-9"
 >
   <div class="px-3">{{ partial "components/logo.html" . }}</div>
   <div
-    class="fixed top-0 z-50 w-full h-screen py-4 overflow-scroll bg-slate-700/50 dark:bg-slate-50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
+    class="fixed top-0 z-50 w-full h-screen overflow-scroll bg-slate-700/50 dark:bg-slate-700/50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
     data-visible="false"
   >
     <div
       class="flex flex-col justify-between h-full pb-12 pt-28 md:pb-0 md:pt-0"
     >
       <div
-        class="flex flex-col items-start gap-6 md:flex-row px-7 md:mb-0 md:mt-0"
+        class="flex flex-col items-start gap-4 md:gap-0 md:flex-row px-7 md:mb-0 md:mt-0"
       >
-        {{ range .Site.RegularPages }}
+        {{ range $.Site.Menus.main }}
         <a
-          href="#"
-          class="text-2xl font-semibold uppercase md:text-sm text-slate-50 dark:text-slate-900"
-          >{{.Params.category}}</a
+          class="px-0 py-4 text-2xl font-semibold uppercase md:px-6 md:text-sm text-slate-50 hover:bg-sky-500 shrink-0 grow md:text-center"
+          href="{{.URL}}"
+          >{{ .Name }}</a
         >
-        {{end}}
+        {{ end }}
       </div>
 
       <div class="flex justify-center md:hidden">
@@ -35,13 +35,13 @@
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       fill="currentColor"
-      class="fill-slate-900 w-7 h-7 open-menu"
+      class="w-7 h-7 open-menu"
     >
       <path
         fill-rule="evenodd"
         d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
         clip-rule="evenodd"
-        class="fill-slate-900"
+        class="fill-slate-900 dark:fill-slate-100"
       />
     </svg>
     <svg
@@ -55,7 +55,7 @@
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M6 18L18 6M6 6l12 12"
-        class="fill-slate-900"
+        class="stroke-slate-100"
       />
     </svg>
   </button>

@@ -1,11 +1,11 @@
 ---
 author: Max Muster
-title: Which iPhone should you buy?
-date: 2022-10-18
-category: Tech
-featureimg: /img/iphone-compare.jpg
-imageDescription: 3 iPhones next to one another
-tags: [iPhone, Review, Recommendations]
+title: How Volkswagen tries to disrupt the EV Market
+date: 2022-10-19
+categories: [Cars]
+featureimg: /img/vw.jpg
+imageDescription: VW ID 3 Charging
+tags: [VW, "EV", ID 3, Germany]
 draft: true
 ---
 
