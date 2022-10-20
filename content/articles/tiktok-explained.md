@@ -3,7 +3,7 @@ author: Max Muster
 title: Addictive Swipes - TikToks Algorithm Explained
 date: 2022-10-19
 category: Social Media
-featureimg: /img/tiktok.jpg
+featureimg: img/tiktok.jpg
 imageDescription: TikTok opened on a Phone
 tags: [TikTok, Social Media Addiction]
 draft: true
