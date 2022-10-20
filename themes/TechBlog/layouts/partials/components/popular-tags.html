@@ -1,0 +1,9 @@
+<div class="flex flex-wrap justify-start gap-2">
+  {{ range (first 15 $.Site.Taxonomies.tags.ByCount) }}
+
+  <a class="p-2 rounded-md bg-slate-200" href="/tags/{{ .Name | urlize }}"
+    >{{ .Name | humanize }}</a
+  >
+
+  {{ end }}
+</div>

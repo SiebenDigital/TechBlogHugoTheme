@@ -1,11 +1,16 @@
 <div class="hidden basis-1/4 md:inline-block bg-slate-100">
-  <div class="sticky flex flex-col gap-4 p-4 top-4">
+  <div class="sticky flex flex-col gap-8 p-4 top-4">
     <div class="">
-      <h5>Contents</h5>
-      {{ .TableOfContents }}
+      <h5>New Articles</h5>
+      <div class="flex flex-wrap gap-4">
+        <!-- prettier-ignore -->
+        {{ $newest := .Site.RegularPages.ByDate | first 3 }} {{ with $newest }}
+        {{- range .}} {{ partial "components/sidebar-article.html" . }} {{end }} {{end}}
+      </div>
     </div>
     <div class="">
-      <h5>Similar Articles</h5>
+      <h5>Article Contents</h5>
+      <div class="flex flex-col gap-2">{{ .TableOfContents }}</div>
     </div>
   </div>
 </div>
