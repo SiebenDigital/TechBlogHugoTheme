@@ -1593,6 +1593,10 @@ select {
 .hover\:bg-opacity-30:hover {
   --tw-bg-opacity: 0.3;
 }
+.prose-h1\:text-3xl :is(:where(h1):not(:where([class~="not-prose"] *))) {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 @media (prefers-color-scheme: dark) {
   .dark\:bg-\[\#07070f\] {
     --tw-bg-opacity: 1;

@@ -4,9 +4,13 @@
       "",
       "a",
       "article",
+      "blockquote",
       "body",
       "button",
       "div",
+      "em",
+      "figcaption",
+      "figure",
       "footer",
       "g",
       "h1",
@@ -22,8 +26,10 @@
       "nav",
       "p",
       "path",
+      "pre",
       "script",
       "span",
+      "strong",
       "style",
       "svg",
       "table",
@@ -213,6 +219,7 @@
       "pointer-events-none",
       "pr-2",
       "prose",
+      "prose-h1:text-3xl",
       "pt-28",
       "pt-8",
       "px-0",
@@ -301,8 +308,12 @@
     "ids": [
       "TableOfContents",
       "a14-chip",
+      "apple",
       "container-area",
       "container-menu",
+      "facebook",
+      "google",
+      "google-is-serious-about-ai",
       "history-games-for-everyone",
       "icons",
       "iphones-just-got-better",
@@ -311,7 +322,8 @@
       "parameter-area",
       "parameter-menu",
       "size-indicator",
-      "the-part-schools-play"
+      "the-part-schools-play",
+      "who-will-take-the-lead-in-next-5-years"
     ]
   }
 }

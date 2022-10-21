@@ -22,3 +22,11 @@ copyright = "Copyright © 2022, Max Muster, all rights reserved."
   writeStats = true
 
 
+
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resampleFilter = 'Box'

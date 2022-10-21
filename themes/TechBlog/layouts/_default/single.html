@@ -51,7 +51,9 @@
       />
       {{ end }}
     </div>
-    <article class="prose lg:prose-xl my-7">{{.Content}}</article>
+    <article class="prose lg:prose-xl my-7 prose-h1:text-3xl">
+      {{.Content}}
+    </article>
   </div>
   {{ partial "components/blog-sidebar.html" . }}
 </div>
