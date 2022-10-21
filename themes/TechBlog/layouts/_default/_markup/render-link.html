@@ -1,0 +1,1 @@
+<a class="underline decoration-4 decoration-sky-500/50 underline-offset-2" href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="nofollow noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>

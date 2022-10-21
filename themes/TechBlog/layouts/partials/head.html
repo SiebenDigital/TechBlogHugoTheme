@@ -1,6 +1,9 @@
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
   <title>
     {{ block "title" . }} {{- .Title }} - {{ .Site.Title -}} {{ end }}
   </title>
@@ -23,4 +26,24 @@
   {{ end -}}
   <link rel="stylesheet" href='{{"css/dynamic.css" | relURL }}' />
   <script src='{{"js/lazysizes.min.js" | absURL }}' async=""></script>
+
+  <!-- SEO TAGS -->
+  {{- if .IsHome -}}
+  <meta name="description" content="{{ site.Params.Description }}" />
+  {{- else -}}
+  <meta name="description" content="{{ .Content | truncate 150 }}" />
+  {{- end }}
+
+  <meta name="robots" content="index,follow" />
+
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <!-- prettier-ignore -->
+  {{- if .IsHome -}}
+  <meta
+    name="keywords"
+    content="{{ range $.Site.Taxonomies.tags.ByCount }}{{.Name | humanize}}, {{end}}"
+  />
+  {{- else -}}
+  <meta name="keywords" content="{{ range .Params.tags }}{{.}},  {{end}}" />
+  {{- end }}
 </head>
