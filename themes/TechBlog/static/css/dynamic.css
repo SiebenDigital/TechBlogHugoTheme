@@ -36,12 +36,3 @@
 .nav-toggle[aria-expanded="false"] {
   position: static;
 }
-
-/*
-body[aria-menuOpenend="false"] {
-  overflow-y: scroll;
-}
-
-body[aria-menuOpenend="true"] {
-  overflow-y: hidden;
-}*/
