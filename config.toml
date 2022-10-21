@@ -1,5 +1,4 @@
 theme = "TechBlog"
-languageCode = "en-us"
 baseurl = "https://tech-globe.netlify.app/"
 title = "TechGlobe"
 
@@ -14,6 +13,8 @@ enableRobotsTXT = true
     subtitle = "Stay up-to-date with tech"
     description = "A world renowend blog covering the worlds latest news in Tech with Journalists all around the Globe."
     favicon = "favicon.ico"
+
+    languageCode = "en-us"
 
     instagram = "https://www.instagram.com/"
     youtube = "https://www.youtube.com/"
