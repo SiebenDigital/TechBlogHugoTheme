@@ -1619,8 +1619,8 @@ select {
   .dark\:bg-slate-700\/50 {
     background-color: rgb(51 65 85 / 0.5);
   }
-  .dark\:bg-slate-100\/20 {
-    background-color: rgb(241 245 249 / 0.2);
+  .dark\:bg-slate-100\/10 {
+    background-color: rgb(241 245 249 / 0.1);
   }
   .dark\:bg-white\/20 {
     background-color: rgb(255 255 255 / 0.2);
