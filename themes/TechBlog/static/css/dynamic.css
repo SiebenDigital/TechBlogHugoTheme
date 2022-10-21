@@ -21,13 +21,19 @@
 
 .nav-toggle[aria-expanded="true"] .open-menu {
   display: none;
-  position: fixed;
-  right: 16px;
-  top: 32px;
 }
 
 .nav-toggle[aria-expanded="false"] .close-menu {
   display: none;
+}
+
+.nav-toggle[aria-expanded="true"] {
+  position: fixed;
+  right: 16px;
+  top: 58px;
+}
+
+.nav-toggle[aria-expanded="false"] {
   position: static;
 }
 
