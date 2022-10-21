@@ -1,9 +1,9 @@
 <div
-  class="container flex items-center justify-between max-w-4xl mx-auto mt-10 md:items-start xl:items-center md:flex-col xl:flex-row md:mt-24 lg:max-w-5xl xl:max-w-7xl gap-9"
+  class="container flex items-center justify-between max-w-4xl px-3 mx-auto mt-10 md:items-start xl:items-center md:flex-col xl:flex-row md:mt-24 lg:max-w-5xl xl:max-w-7xl gap-9"
 >
-  <div class="px-3">{{ partial "components/logo.html" . }}</div>
+  {{ partial "components/logo.html" . }}
   <div
-    class="fixed top-0 bottom-0 z-50 block w-full h-screen overflow-x-hidden overflow-y-scroll md:overflow-x-scroll bg-slate-700/50 dark:bg-slate-700/50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
+    class="fixed top-0 bottom-0 right-0 z-50 block w-auto h-screen max-w-full overflow-x-hidden overflow-y-scroll md:overflow-x-scroll bg-slate-700/50 dark:bg-slate-700/50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
     data-visible="false"
   >
     <div
@@ -21,14 +21,14 @@
         {{ end }}
       </div>
 
-      <div class="flex justify-center md:hidden">
+      <div class="flex justify-start md:hidden px-7">
         {{ partial "components/logo-small-white.html" . }}
       </div>
     </div>
   </div>
 
   <button
-    class="sticky top-6 md:hidden nav-toggle z-[60] right-4"
+    class="sticky top-6 md:hidden nav-toggle z-[60] right-3"
     aria-expanded="false"
   >
     <svg
