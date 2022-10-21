@@ -21,16 +21,21 @@
 
 .nav-toggle[aria-expanded="true"] .open-menu {
   display: none;
+  position: fixed;
+  right: 16px;
+  top: 32px;
 }
 
 .nav-toggle[aria-expanded="false"] .close-menu {
   display: none;
+  position: static;
 }
 
+/*
 body[aria-menuOpenend="false"] {
   overflow-y: scroll;
 }
 
 body[aria-menuOpenend="true"] {
   overflow-y: hidden;
-}
+}*/
