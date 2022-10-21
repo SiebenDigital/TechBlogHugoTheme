@@ -36,3 +36,8 @@ enableRobotsTXT = true
   hint = 'photo'
   quality = 75
   resampleFilter = 'Box'
+
+
+[markup.tableOfContents]
+    endLevel = 6
+    startLevel = 1
