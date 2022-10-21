@@ -7,8 +7,8 @@
     <div class="flex flex-wrap gap-6">
       {{$ThirdArticles := where .Site.RegularPages "Section" "articles"}}
       {{$ThirdArticles := after 3 $ThirdArticles}} {{range (first 3
-      $ThirdArticles)}} {{ partial "components/article-preview-big.html" .}}
-      {{end}}
+      $ThirdArticles)}} {{ partial "components/article-preview-front-big.html"
+      .}} {{end}}
     </div>
 
     <div class="flex flex-wrap gap-4 mt-12">

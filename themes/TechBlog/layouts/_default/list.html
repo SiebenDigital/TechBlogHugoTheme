@@ -1,6 +1,12 @@
-{{ define "main" }}
-
-<h1 class="mb-12">{{.Title}}</h1>
+{{ define "main" }} {{ if eq .Page.Type "tags" }}
+<h2 class="my-12 text-slate-700 dark:text-slate-200">
+  <span class="text-sky-600">#</span>{{.Title}}
+</h2>
+{{else}}
+<h1 class="my-12 font-semibold text-slate-700 dark:text-slate-200">
+  {{.Title}}
+</h1>
+{{end}}
 
 <div class="flex flex-wrap gap-4">
   {{range .RegularPages}} {{ partial "components/article-preview-big.html" . }}
