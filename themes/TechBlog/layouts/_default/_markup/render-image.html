@@ -1,11 +1,12 @@
 <!-- prettier-ignore -->
 {{ $image := resources.GetMatch .Destination }}
-{{ if gt $image.Width 640 }}
-    {{ $image = $image.Resize "640x" }}
+{{ if gt $image.Width 900 }}
+    {{ $image = $image.Resize "900x" }}
 {{ end }}
-<figure>
+<figure class="flex flex-col items-start justify-center">
   <img
     src="{{ $image.RelPermalink | safeURL }}"
+    class="lazyload"
     {{
     with
     .Text

@@ -2,10 +2,10 @@
   class="flex flex-row max-w-md gap-4 news-article-small"
   href="{{.Permalink}}"
 >
-  <div class="z-10 w-36 h-24 grow shrink-0 overflow-hidden">
+  <div class="z-10 h-24 overflow-hidden w-36 grow shrink-0">
     {{- $image := resources.Get .Params.featureimg -}} {{ with $image }}
     <img
-      class="object-cover w-full h-full news-image-small"
+      class="object-cover w-full h-full news-image-small lazyload"
       src='{{ ($image.Fill "200x150 q80 Center").RelPermalink }}'
       alt="{{.Params.imageDescription}}"
     />
@@ -13,7 +13,7 @@
   </div>
   <div class="flex flex-col gap-1 items-start w-auto max-w-[250px] shrink">
     <h5>{{.Title}}</h5>
-    <div class="flex gap-1 items-center">
+    <div class="flex items-center gap-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
