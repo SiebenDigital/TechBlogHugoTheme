@@ -33,7 +33,7 @@
         {{ range .Params.tags }}
 
         <a
-          class="p-2 text-sm transition-all rounded-md bg-slate-200 dark:bg-slate-200/20 hover:scale-105 dark:hover:bg-slate-200/30"
+          class="p-2 text-sm font-semibold uppercase transition-all duration-200 rounded-md bg-slate-200 dark:bg-slate-200/20 hover:bg-slate-300 dark:hover:bg-opacity-30 hover:scale-105"
           href="/tags/{{ . | urlize }}"
           >{{ . }}</a
         >

@@ -28,3 +28,11 @@
 .nav-toggle[aria-expanded="false"] .close-menu {
   display: none;
 }
+
+body[aria-menuOpenend="false"] {
+  overflow-y: scroll;
+}
+
+body[aria-menuOpenend="true"] {
+  overflow-y: hidden;
+}

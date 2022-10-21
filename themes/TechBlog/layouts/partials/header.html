@@ -3,7 +3,7 @@
 >
   <div class="px-3">{{ partial "components/logo.html" . }}</div>
   <div
-    class="fixed top-0 z-50 w-full h-screen overflow-scroll bg-slate-700/50 dark:bg-slate-700/50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
+    class="fixed top-0 z-50 block w-full h-screen overflow-x-hidden overflow-y-scroll md:overflow-x-scroll bg-slate-700/50 dark:bg-slate-700/50 md:h-auto md:static backdrop-blur-xl md:bg-slate-700 mobile-nav"
     data-visible="false"
   >
     <div
@@ -14,7 +14,7 @@
       >
         {{ range $.Site.Menus.main }}
         <a
-          class="px-0 py-4 text-2xl font-semibold uppercase md:px-6 md:text-sm text-slate-50 hover:bg-sky-500 shrink-0 grow md:text-center"
+          class="px-0 py-4 text-2xl font-semibold uppercase md:px-6 md:text-sm text-slate-50 md:hover:bg-sky-500 shrink-0 grow md:text-center"
           href="{{.URL}}"
           >{{ .Name }}</a
         >
@@ -28,7 +28,7 @@
   </div>
 
   <button
-    class="fixed md:hidden nav-toggle z-[60] right-4"
+    class="sticky top-6 md:hidden nav-toggle z-[60] right-4"
     aria-expanded="false"
   >
     <svg

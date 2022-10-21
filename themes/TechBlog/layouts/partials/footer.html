@@ -5,20 +5,19 @@
     class="container flex flex-col max-w-4xl gap-12 px-4 py-32 mx-auto mt-24 lg:max-w-5xl xl:max-w-7xl"
   >
     <div class="flex flex-wrap justify-start gap-16">
+      <div class="max-w-sm">
+        <h5 class="mb-2">Popular Tags</h5>
+        {{ partial "components/popular-tags-dark.html" . }}
+      </div>
+
       <div class="flex flex-col max-w-sm gap-1">
         <h5 class="mb-2">Menu</h5>
         {{ range $.Site.Menus.main }}
         <a href="#" class="font-normal uppercase text-slate-50">{{.Name}}</a>
         {{end}}
       </div>
-
-      <div class="max-w-sm">
-        <h5 class="mb-2">Popular Tags</h5>
-        {{ partial "components/popular-tags-dark.html" . }}
-      </div>
     </div>
-
-    <div class="flex flex-wrap-reverse items-end justify-between gap-6">
+    <div class="flex flex-wrap-reverse items-center justify-between gap-6">
       <div class="max-w-sm shrink-0">
         {{ partial "components/logo-small-white.html" . }}
         <p class="mt-2 text-slate-50">{{.Site.Params.Description}}</p>

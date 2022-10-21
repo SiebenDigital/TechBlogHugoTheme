@@ -978,6 +978,9 @@ select {
 .top-0 {
   top: 0px;
 }
+.top-6 {
+  top: 1.5rem;
+}
 .right-4 {
   right: 1rem;
 }
@@ -1019,9 +1022,6 @@ select {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-24 {
-  margin-top: 6rem;
-}
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -1030,6 +1030,9 @@ select {
 }
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mt-24 {
+  margin-top: 6rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -1263,11 +1266,14 @@ select {
 .overflow-hidden {
   overflow: hidden;
 }
-.overflow-scroll {
-  overflow: scroll;
-}
 .overflow-y-auto {
   overflow-y: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 .scroll-auto {
   scroll-behavior: auto;
@@ -1387,8 +1393,8 @@ select {
 .stroke-sky-400 {
   stroke: #38bdf8;
 }
-.stroke-sky-600 {
-  stroke: #0284c7;
+.stroke-sky-500 {
+  stroke: #0ea5e9;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1571,9 +1577,9 @@ select {
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.hover\:bg-sky-500:hover {
+.hover\:bg-slate-300:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 .hover\:bg-opacity-30:hover {
   --tw-bg-opacity: 0.3;
@@ -1610,11 +1616,14 @@ select {
     --tw-text-opacity: 1;
     color: rgb(203 213 225 / var(--tw-text-opacity));
   }
-  .dark\:hover\:bg-slate-200\/30:hover {
-    background-color: rgb(226 232 240 / 0.3);
+  .dark\:hover\:bg-opacity-30:hover {
+    --tw-bg-opacity: 0.3;
   }
 }
 @media (min-width: 640px) {
+  .sm\:mt-20 {
+    margin-top: 5rem;
+  }
   .sm\:block {
     display: block;
   }
@@ -1687,6 +1696,9 @@ select {
   .md\:gap-0 {
     gap: 0px;
   }
+  .md\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
   .md\:bg-slate-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -1715,6 +1727,10 @@ select {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+  .md\:hover\:bg-sky-500:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(14 165 233 / var(--tw-bg-opacity));
   }
 }
 @media (min-width: 1024px) {
