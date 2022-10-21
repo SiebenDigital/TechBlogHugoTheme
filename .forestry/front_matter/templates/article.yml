@@ -5,18 +5,27 @@ fields:
 - type: text
   name: title
   label: title
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Max Muster
+    - Maria Muster
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author
 - type: datetime
   name: date
   label: date
+  default: now
 - type: file
   name: featureimg
   label: featureimg
-- type: text
-  name: category
-  label: category
-- type: text
-  name: author
-  label: author
 - type: text
   name: imageDescription
   label: imageDescription
