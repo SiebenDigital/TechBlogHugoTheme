@@ -978,6 +978,9 @@ select {
 .top-0 {
   top: 0px;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .top-6 {
   top: 1.5rem;
 }
@@ -989,9 +992,6 @@ select {
 }
 .right-0 {
   right: 0px;
-}
-.bottom-0 {
-  bottom: 0px;
 }
 .z-10 {
   z-index: 10;
