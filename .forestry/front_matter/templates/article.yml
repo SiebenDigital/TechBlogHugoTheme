@@ -1,0 +1,25 @@
+---
+label: Article
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featureimg
+  label: featureimg
+- type: text
+  name: category
+  label: category
+- type: text
+  name: author
+  label: author
+- type: text
+  name: imageDescription
+  label: imageDescription
+- type: list
+  name: tags
+  label: tags
