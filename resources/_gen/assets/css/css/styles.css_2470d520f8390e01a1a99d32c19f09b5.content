@@ -1627,6 +1627,9 @@ select {
     --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
     --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
   }
+  .dark\:border-slate-200\/30 {
+    border-color: rgb(226 232 240 / 0.3);
+  }
   .dark\:bg-\[\#07070f\] {
     --tw-bg-opacity: 1;
     background-color: rgb(7 7 15 / var(--tw-bg-opacity));
