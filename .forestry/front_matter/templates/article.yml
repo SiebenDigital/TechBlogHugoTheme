@@ -36,3 +36,5 @@ fields:
   type: boolean
   label: draft
   default: true
+pages:
+- content/articles/Tech/summary-of-google-s-2022-io-event.md
