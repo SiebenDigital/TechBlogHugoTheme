@@ -1699,6 +1699,10 @@ select {
   .dark\:bg-slate-200\/20 {
     background-color: rgb(226 232 240 / 0.2);
   }
+  .dark\:bg-slate-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  }
   .dark\:bg-slate-700\/50 {
     background-color: rgb(51 65 85 / 0.5);
   }
