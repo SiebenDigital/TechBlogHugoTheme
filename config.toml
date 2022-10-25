@@ -33,12 +33,6 @@ enableRobotsTXT = true
   priority = 0.5
 
 
-[imaging]
-  anchor = 'Smart'
-  bgColor = '#ffffff'
-  hint = 'photo'
-  quality = 75
-  resampleFilter = 'Box'
 
 
 [markup.tableOfContents]
