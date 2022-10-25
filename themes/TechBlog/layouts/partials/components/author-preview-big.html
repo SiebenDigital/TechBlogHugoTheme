@@ -4,7 +4,7 @@
     {{- $image := resources.Get .Params.profileimg -}} 
     {{ with $image }}
     <img
-      class="object-cover w-full h-full news-image-small lazyload"
+      class="object-cover w-full h-full transition-all duration-300 news-image-small lazyload hover:scale-110"
       src='{{ ($image.Fill "300x300 q80 ").RelPermalink }}'
       alt="{{.Params.imageDescription}}"
     />

@@ -16,11 +16,16 @@
         <h5 class="mb-2">Menu</h5>
         {{ range $.Site.Menus.main }}
         <a
-          href="#"
+          href="{{.URL}}"
           class="font-semibold tracking-wider uppercase text-slate-50/70"
           >{{.Name}}</a
         >
         {{end}}
+        <a
+          href='{{"/authors" | absURL}}'
+          class="font-semibold tracking-wider uppercase text-slate-50/70"
+          >Authors</a
+        >
       </div>
 
       <div class="">

@@ -1,9 +1,9 @@
 ---
-title: { { replace .Name "-" " " | title } }
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
 featureimg:
 imageDescription:
-author: { { $.Site.Params.defaultAuthor } }
-date: { { .Date } }
+author: "{{ $.Site.Params.defaultAuthor }}"
 tags: []
-draft: true
 ---
