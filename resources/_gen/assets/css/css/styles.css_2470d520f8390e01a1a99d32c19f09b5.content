@@ -1544,9 +1544,6 @@ select {
 .font-normal {
   font-weight: 400;
 }
-.font-medium {
-  font-weight: 500;
-}
 .uppercase {
   text-transform: uppercase;
 }
@@ -2090,10 +2087,6 @@ select {
   }
 }
 
-/* Other Imports */
-@import url(fonts.css);
-
-/* Site Specific */
 /* put site specific css styles here using the @layer directive */
 /* see https://tailwindcss.com/docs/functions-and-directives#layer */
 
