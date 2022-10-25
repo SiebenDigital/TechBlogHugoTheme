@@ -1544,6 +1544,9 @@ select {
 .font-normal {
   font-weight: 400;
 }
+.font-medium {
+  font-weight: 500;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -1850,6 +1853,14 @@ select {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
   .md\:hover\:bg-sky-500:hover {
     --tw-bg-opacity: 1;
