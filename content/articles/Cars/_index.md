@@ -1,8 +1,6 @@
 ---
 title: Cars
 
-tagColor: lime
-
 menu:
   main:
     name: Cars
