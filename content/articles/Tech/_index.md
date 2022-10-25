@@ -1,6 +1,8 @@
 ---
 title: Tech
 
+tagColor: orange
+
 menu:
   main:
     name: Tech

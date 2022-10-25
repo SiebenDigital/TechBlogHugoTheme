@@ -1,23 +1,90 @@
 ---
 title: How Oculus will revolutionize history class
 date: 2022-10-20
-author: Max Muster
+author: Max Master
 featureimg: img/oculus.jpg
 imageDescription: Man wearing Oculus Rift Headset
 tags: [VR, Oculus Rift, Education, Facebook]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt amet harum, optio quam, perspiciatis eos cumque error architecto molestiae pariatur laborum delectus repellendus sequi doloribus explicabo enim quaerat numquam ipsum. Iste error velit quibusdam corrupti sit expedita ut rerum consequuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem architecto ex repellat voluptates qui facere unde distinctio excepturi temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis, quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel facilis et officiis quas, labore ab aut. Praesentium, laborum? Tempore suscipit dolor nemo eos, nostrum id facilis est possimus quaerat, similique voluptatem? Nisi libero labore maiores. Temporibus soluta eius neque veritatis cupiditate maiores nobis voluptatem accusantium fugiat. Illum quae facere impedit facilis ipsum doloribus, cupiditate veritatis esse quisquam, fuga non iste voluptate aliquid ut quaerat consequatur ipsa, officiis vero aliquam aut vel animi quas. Assumenda earum facere, dicta, velit quia, ratione quidem mollitia similique numquam perspiciatis blanditiis sint animi.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt amet
+harum, optio quam, perspiciatis eos cumque error architecto molestiae pariatur
+laborum delectus repellendus sequi doloribus explicabo enim quaerat numquam
+ipsum. Iste error velit quibusdam corrupti sit expedita ut rerum consequuntur
+aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam enim libero
+cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime ratione
+reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo necessitatibus
+laudantium inventore repellendus, quos ad ipsum distinctio corrupti? Id, velit
+dolor nam culpa a asperiores at nesciunt aut cupiditate vel ipsa temporibus
+recusandae porro. Vitae praesentium dignissimos dolorem architecto ex repellat
+voluptates qui facere unde distinctio excepturi temporibus nemo placeat neque
+quisquam, quam non laboriosam itaque illum, ipsam cum. Sed non harum, odit et
+culpa exercitationem ipsam, numquam molestiae aspernatur repellendus totam
+voluptas ipsa aliquid quia pariatur corrupti similique amet ducimus natus
+laborum enim, eligendi sequi. Nobis, reiciendis, quisquam quae inventore optio
+laudantium eum a, aut libero asperiores aliquid minima tenetur ad consectetur
+adipisci perferendis. Laborum, iusto nesciunt numquam sequi sunt, officia
+voluptatem est maiores nobis molestias itaque vel facilis et officiis quas,
+labore ab aut. Praesentium, laborum? Tempore suscipit dolor nemo eos, nostrum id
+facilis est possimus quaerat, similique voluptatem? Nisi libero labore maiores.
+Temporibus soluta eius neque veritatis cupiditate maiores nobis voluptatem
+accusantium fugiat. Illum quae facere impedit facilis ipsum doloribus,
+cupiditate veritatis esse quisquam, fuga non iste voluptate aliquid ut quaerat
+consequatur ipsa, officiis vero aliquam aut vel animi quas. Assumenda earum
+facere, dicta, velit quia, ratione quidem mollitia similique numquam
+perspiciatis blanditiis sint animi.
 
 ## New Hardware
 
-equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem architecto ex repellat voluptates qui facere unde distinctio excepturi temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis, quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel facilis et officiis quas, labore ab aut
+equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam
+enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime
+ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo
+necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio
+corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel
+ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem
+architecto ex repellat voluptates qui facere unde distinctio excepturi
+temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam
+cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae
+aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti
+similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis,
+quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid
+minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt
+numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel
+facilis et officiis quas, labore ab aut
 
 ## History Games for everyone
 
-equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem architecto ex repellat voluptates qui facere unde distinctio excepturi temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis, quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel facilis et officiis quas, labore ab aut
+equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam
+enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime
+ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo
+necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio
+corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel
+ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem
+architecto ex repellat voluptates qui facere unde distinctio excepturi
+temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam
+cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae
+aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti
+similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis,
+quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid
+minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt
+numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel
+facilis et officiis quas, labore ab aut
 
 ## The Part schools play
 
-equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem architecto ex repellat voluptates qui facere unde distinctio excepturi temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis, quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel facilis et officiis quas, labore ab aut
+equuntur aspernatur minus officiis sapiente, autem nihil maiores hic. Aperiam
+enim libero cupiditate reprehenderit numquam eum totam quaerat ipsa nam, maxime
+ratione reiciendis, ab facere magni! Tenetur optio veritatis, libero nemo
+necessitatibus laudantium inventore repellendus, quos ad ipsum distinctio
+corrupti? Id, velit dolor nam culpa a asperiores at nesciunt aut cupiditate vel
+ipsa temporibus recusandae porro. Vitae praesentium dignissimos dolorem
+architecto ex repellat voluptates qui facere unde distinctio excepturi
+temporibus nemo placeat neque quisquam, quam non laboriosam itaque illum, ipsam
+cum. Sed non harum, odit et culpa exercitationem ipsam, numquam molestiae
+aspernatur repellendus totam voluptas ipsa aliquid quia pariatur corrupti
+similique amet ducimus natus laborum enim, eligendi sequi. Nobis, reiciendis,
+quisquam quae inventore optio laudantium eum a, aut libero asperiores aliquid
+minima tenetur ad consectetur adipisci perferendis. Laborum, iusto nesciunt
+numquam sequi sunt, officia voluptatem est maiores nobis molestias itaque vel
+facilis et officiis quas, labore ab aut
