@@ -42,3 +42,8 @@ enableRobotsTXT = true
 [markup.tableOfContents]
     endLevel = 6
     startLevel = 1
+
+[taxonomies]
+	author = "authors"
+	tag = "tags"
+	

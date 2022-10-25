@@ -9,8 +9,8 @@
 {{end}}
 
 <div class="flex flex-wrap gap-4">
-  {{range .Site.RegularPages}} {{ partial "components/article-preview-big.html"
-  . }} {{end}}
+  {{range where .Site.RegularPages "Section" "articles"}} {{ partial
+  "components/article-preview-big.html" . }} {{end}}
 </div>
 
 {{ end }}

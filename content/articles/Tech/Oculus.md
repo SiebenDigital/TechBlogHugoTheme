@@ -1,6 +1,5 @@
 ---
 title: How Oculus will revolutionize history class
-category: VR
 date: 2022-10-20
 author: Max Muster
 featureimg: img/oculus.jpg

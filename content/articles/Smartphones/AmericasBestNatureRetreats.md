@@ -2,7 +2,6 @@
 author: Max Muster
 title: How to take stunning Photos with the new iPhone 14 Pro
 date: 2022-10-19
-category: Travel
 featureimg: /img/usa.jpg
 imageDescription: Boats on a Lake in the Mountains
 tags: [Filter, Apple, iPhone, iPhone 14 Pro, Photography]

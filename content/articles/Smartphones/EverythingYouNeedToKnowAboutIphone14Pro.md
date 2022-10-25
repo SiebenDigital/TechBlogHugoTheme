@@ -2,7 +2,6 @@
 author: Max Muster
 title: Everything you need to know about iPhone 14 Pro
 date: 2022-10-19
-category: Tech
 featureimg: /img/iphone-14-pro.jpg
 imageDescription: Iphone 14 Pro Front
 tags: [Apple, iPhone, iPhone 14 Pro, Unboxing, First Test]

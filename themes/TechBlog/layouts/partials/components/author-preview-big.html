@@ -1,0 +1,21 @@
+<a href="{{.Permalink}}" class="flex items-center max-w-md gap-4">
+  <div class="z-10 w-40 h-40 overflow-hidden rounded-full shrink-0">
+    <!-- prettier-ignore -->
+    {{- $image := resources.Get .Params.profileimg -}} 
+    {{ with $image }}
+    <img
+      class="object-cover w-full h-full news-image-small lazyload"
+      src='{{ ($image.Fill "300x300 q80 ").RelPermalink }}'
+      alt="{{.Params.imageDescription}}"
+    />
+    {{ end }}
+  </div>
+  <div class="">
+    <h3
+      class="underline decoration decoration-sky-600/50 dark:decoration-sky-500 decoration-4 underline-offset-4"
+    >
+      {{.Title}}
+    </h3>
+    <p class="mt-2">{{.Content | truncate 100 }}</p>
+  </div>
+</a>

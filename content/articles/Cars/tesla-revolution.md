@@ -2,7 +2,6 @@
 author: Max Muster
 title: How Tesla revolutionized the automotive Industry by betting against the odds
 date: 2022-10-18
-categories: [Cars]
 featureimg: /img/tesla.jpg
 imageDescription: Tesla Model 3 in Sunset
 tags: [Tesla, Elon Musk, California, Stock, "EV"]

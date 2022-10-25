@@ -1,5 +1,12 @@
 {{ define "main" }}
 <div class="flex items-center justify-center">
-  <h1>Seems like this page does not exist.</h1>
+  <h1>404</h1>
+  <h2>Seems like this page does not exist.</h2>
+
+  <div class="flex flex-wrap gap-6">
+    {{$ThirdArticles := where .Site.RegularPages "Section" "articles"}} {{range
+    (first 3 $ThirdArticles)}} {{ partial
+    "components/article-preview-front-big.html" .}} {{end}}
+  </div>
 </div>
 {{ end }}

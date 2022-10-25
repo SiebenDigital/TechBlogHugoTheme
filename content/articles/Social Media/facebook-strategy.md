@@ -2,7 +2,6 @@
 author: Max Muster
 title: Facebooks Strategy for competing against Snapchat and BeReal
 date: 2022-10-20
-category: Social Media
 featureimg: /img/facebook.jpg
 imageDescription: Facebook and Faceook Messenger Logo
 tags: [Facebook, Instagram, Snapchat, BeReal]

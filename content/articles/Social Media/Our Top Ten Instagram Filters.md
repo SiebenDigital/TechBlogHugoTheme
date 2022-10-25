@@ -1,6 +1,5 @@
 ---
 title: Our Top Ten Instagram Filters
-category: Social Media
 date: 2022-10-18
 author: Max Muster
 featureimg: img/instagram.jpg

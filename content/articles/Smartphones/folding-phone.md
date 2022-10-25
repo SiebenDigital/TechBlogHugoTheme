@@ -2,7 +2,6 @@
 author: Max Muster
 title: Are Folding Phones really the future?
 date: 2022-10-19
-category: Tech
 featureimg: /img/folding-phone.jpg
 imageDescription: Folding Samsung Phone
 tags: [Samsung]

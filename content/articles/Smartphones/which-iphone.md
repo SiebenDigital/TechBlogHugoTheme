@@ -2,7 +2,6 @@
 author: Max Muster
 title: Which iPhone should you buy?
 date: 2022-10-18
-categories: [Tech]
 featureimg: /img/iphone-compare.jpg
 imageDescription: 3 iPhones next to one another
 tags: [iPhone, Review, Recommendations]

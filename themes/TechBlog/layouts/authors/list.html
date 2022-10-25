@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+<div class="flex flex-wrap gap-7">
+  {{range where $.Site.RegularPages "Section" "authors" }} {{ partial
+  "components/author-preview-big.html" . }}{{ end }}
+</div>
+{{ end }}

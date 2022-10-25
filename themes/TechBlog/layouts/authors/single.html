@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="flex flex-col flex-wrap items-center gap-8">
+  <div class="flex flex-col items-center gap-4">
+    <div class="z-10 w-64 h-64 overflow-hidden rounded-full shrink-0">
+      <!-- prettier-ignore -->
+      {{- $image := resources.Get .Params.profileimg -}} 
+    {{ with $image }}
+      <img
+        class="object-cover w-full h-full news-image-small lazyload"
+        src='{{ ($image.Fill "600x600 q80 ").RelPermalink }}'
+        alt="{{.Params.imageDescription}}"
+      />
+      {{ end }}
+    </div>
+
+    <div class="flex flex-col items-center">
+      <h1 class="">{{.Title}}</h1>
+      <span
+        class="text-sm font-semibold tracking-wider uppercase text-slate-500"
+        >Author</span
+      >
+    </div>
+  </div>
+  <div class="max-w-md text-slate-700">{{.Content}}</div>
+</div>
+<div class="flex flex-col justify-center my-32">
+  <h3 class="mb-8 text-center">Articles by {{.Title}}</h3>
+  <div class="flex flex-wrap justify-center gap-8">
+    {{ range where $.Site.RegularPages "Params.author" .Title }} {{ partial
+    "components/article-preview-small.html" . }} {{ end }}
+  </div>
+</div>
+{{end}}

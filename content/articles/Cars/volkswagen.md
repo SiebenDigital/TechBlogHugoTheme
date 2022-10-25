@@ -2,7 +2,6 @@
 author: Max Muster
 title: How Volkswagen tries to disrupt the EV Market
 date: 2022-10-19
-categories: [Cars]
 featureimg: /img/vw.jpg
 imageDescription: VW ID 3 Charging
 tags: [VW, "EV", ID 3, Germany]

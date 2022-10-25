@@ -3,6 +3,7 @@
   href="{{.Permalink}}"
 >
   <div class="z-10 h-auto overflow-hidden w-28 grow shrink-0">
+    <!-- prettier-ignore -->
     {{- $image := resources.Get .Params.featureimg -}} {{ with $image }}
     <img
       class="object-cover w-full h-full news-image-small"

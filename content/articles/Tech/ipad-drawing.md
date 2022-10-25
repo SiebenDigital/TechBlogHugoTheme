@@ -2,7 +2,6 @@
 author: Max Muster
 title: The Top 10 iPad Drawing Apps for Creatives
 date: 2022-10-20
-category: Tech
 featureimg: /img/ipad-drawing.jpg
 imageDescription: Someone using Procreate on an edgeless iPad
 tags: [iPad, Apple, Creative Software]
