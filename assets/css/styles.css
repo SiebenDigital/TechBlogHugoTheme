@@ -5,9 +5,6 @@
 @tailwind utilities;
 @tailwind variants;
 
-/* Other Imports */
-@import url(fonts.css);
-
 /* Site Specific */
 /* put site specific css styles here using the @layer directive */
 /* see https://tailwindcss.com/docs/functions-and-directives#layer */
