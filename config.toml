@@ -9,18 +9,20 @@ copyright = "Copyright © 2022, Max Muster, all rights reserved."
 enableRobotsTXT = true
 
 [params]
-    name = "TechGlobe"
-    subtitle = "Stay up-to-date with tech"
-    description = "A world renowend blog covering the worlds latest news in Tech with Journalists all around the Globe."
-    favicon = "favicon.ico"
+  name = "TechGlobe"
+  subtitle = "Stay up-to-date with tech"
+  description = "A world renowend blog covering the worlds latest news in Tech with Journalists all around the Globe."
+  favicon = "favicon.ico"
 
-    languageCode = "en-us"
+  defaultAuthor = "Max Muster"
 
-    instagram = "https://www.instagram.com/"
-    youtube = "https://www.youtube.com/"
-    twitter = "https://twitter.com/home"
-    facebook = "https://facebook.com/"
-    tiktok = "https://www.tiktok.com/"
+  languageCode = "en-us"
+
+  instagram = "https://www.instagram.com/"
+  youtube = "https://www.youtube.com/"
+  twitter = "https://twitter.com/home"
+  facebook = "https://facebook.com/"
+  tiktok = "https://www.tiktok.com/"
 
 [build]
   writeStats = true

@@ -4,7 +4,10 @@
       <h5 class="mb-2">New Articles</h5>
       <div class="flex flex-wrap gap-4">
         <!-- prettier-ignore -->
-        {{ $newest := (where .Site.RegularPages "Section" "articles").ByDate | last 3 }} {{ with $newest }}
+        {{ $newest :=  where .Site.RegularPages "Section" "articles"}}
+        {{ $newest := where ($newest) "Permalink" "ne" .Permalink}}
+        {{ $newest := $newest.ByDate | last 3 }}
+        {{ with $newest }}
         {{- range .}} {{ partial "components/sidebar-article.html" . }} {{end }} {{end}}
       </div>
     </div>
