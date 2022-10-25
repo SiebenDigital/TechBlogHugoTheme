@@ -37,4 +37,5 @@ fields:
   label: draft
   default: true
 pages:
+- content/articles/Smartphones/what-to-expect-from-apples-upcoming-october-keynote.md
 - content/articles/Tech/summary-of-google-s-2022-io-event.md
