@@ -1,3 +1,4 @@
+{{with $.Site.Params.instagram }}
 <div class="flex items-end gap-2">
   <a
     href="{{$.Site.Params.instagram}}"
@@ -17,7 +18,7 @@
       />
     </svg>
   </a>
-
+  {{end}} {{with $.Site.Params.youtube }}
   <a
     href="{{$.Site.Params.youtube}}"
     class=""
@@ -36,7 +37,7 @@
       />
     </svg>
   </a>
-
+  {{end}} {{with $.Site.Params.twitter }}
   <a
     href="{{$.Site.Params.twitter}}"
     class=""
@@ -55,7 +56,7 @@
       />
     </svg>
   </a>
-
+  {{end}} {{with $.Site.Params.facebook }}
   <a
     href="{{$.Site.Params.facebook}}"
     class=""
@@ -74,7 +75,7 @@
       />
     </svg>
   </a>
-
+  {{end}} {{with $.Site.Params.tiktok }}
   <a
     href="{{$.Site.Params.tiktok}}"
     class=""
@@ -95,3 +96,4 @@
     </svg>
   </a>
 </div>
+{{end}}
