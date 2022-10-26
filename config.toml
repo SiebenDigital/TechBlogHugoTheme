@@ -2,14 +2,13 @@ theme = "TechBlog"
 baseurl = "https://tech-globe.netlify.app/"
 title = "TechGlobe"
 
-author = "Max Muster"
-copyright = "Copyright © 2022, Max Muster, all rights reserved."
+googleAnalytics = "G-M1EKJ557V4"
+
 
 
 enableRobotsTXT = true
 
 [params]
-  name = "TechGlobe"
   subtitle = "Stay up-to-date with tech"
   description = "A world renowend blog covering the worlds latest news in Tech with Journalists all around the Globe."
   favicon = "favicon.ico"

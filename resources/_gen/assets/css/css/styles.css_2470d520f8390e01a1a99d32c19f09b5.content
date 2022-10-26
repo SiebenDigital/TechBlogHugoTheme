@@ -2229,6 +2229,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */ url("/fonts/poppins-v20-latin-300.svg#Poppins")
       format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-300italic - latin */
@@ -2248,6 +2249,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-300italic.svg#Poppins") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-regular - latin */
@@ -2266,6 +2268,8 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+
+  font-display: swap;
 }
 
 /* poppins-500 - latin */
@@ -2283,6 +2287,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */ url("/fonts/poppins-v20-latin-500.svg#Poppins")
       format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-italic - latin */
@@ -2301,6 +2306,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-italic.svg#Poppins") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-500italic - latin */
@@ -2320,6 +2326,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-500italic.svg#Poppins") format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-600 - latin */
@@ -2337,6 +2344,7 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */ url("/fonts/poppins-v20-latin-600.svg#Poppins")
       format("svg"); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* poppins-600italic - latin */
@@ -2356,6 +2364,8 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-600italic.svg#Poppins") format("svg"); /* Legacy iOS */
+
+  font-display: swap;
 }
 
 /* poppins-700 - latin */
@@ -2373,6 +2383,8 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */ url("/fonts/poppins-v20-latin-700.svg#Poppins")
       format("svg"); /* Legacy iOS */
+
+  font-display: swap;
 }
 
 /* poppins-700italic - latin */
@@ -2392,4 +2404,6 @@ p {
       format("truetype"),
     /* Safari, Android, iOS */
       url("/fonts/poppins-v20-latin-700italic.svg#Poppins") format("svg"); /* Legacy iOS */
+
+  font-display: swap;
 }

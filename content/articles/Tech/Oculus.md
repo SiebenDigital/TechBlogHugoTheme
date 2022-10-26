@@ -1,7 +1,7 @@
 ---
 title: How Oculus will revolutionize history class
 date: 2022-10-20
-author: Max Master
+author: Max Muster
 featureimg: img/oculus.jpg
 imageDescription: Man wearing Oculus Rift Headset
 tags: [VR, Oculus Rift, Education, Facebook]

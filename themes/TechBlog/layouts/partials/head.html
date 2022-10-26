@@ -35,6 +35,9 @@
   <meta name="description" content="{{ .Content | truncate 150 }}" />
   {{- end }}
 
+  <!-- GOOGLE ANALYTICS -->
+  {{ template "_internal/google_analytics.html" . }}
+
   <meta name="robots" content="index,follow" />
 
   <link rel="canonical" href="{{ .Permalink }}" />
